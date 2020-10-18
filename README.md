@@ -2,28 +2,23 @@
   <img src="banner.png">
 </p>
 
-## The Challenge
-1. Read about the challenge and register at [#100DaysOfCloud.com](https://100DaysOfCloud.com)
-2. Join the [Discord Channel](https://discord.gg/c6Db8nY)
-3. Copy the [100DaysOfCloud/100DaysOfCloud Journey Template](https://github.com/100DaysOfCloud/100DaysOfCloud/generate)
-4. Use the [Micro](Templates/000-DAY-ARTICLE-MICRO-TEMPLATE.md), [Short](Templates/001-DAY-ARTICLE-SHORT-TEMPLATE.md) or [Long](Templates/002-DAY-ARTICLE-LONG-TEMPLATE.md) Day Journey Template and document your day-to-day progress.
-5. Update your main README to link back to your Day Journey article
-4. If you need ideas go to [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas)
+## Anran's Cloud Journey
 
-## How to use this template:
-Fill in your details where you see this icon ✍️
-We have provided a sample Day Journey entry staring at 0. You can delete this example.
+<p> 
+I am an up-and-coming full-stack developer ready to embrace the cloud, and I start my #100DaysOfCloud journey today (18 October 2020) 🐣
+</p>
 
-## [✍️ Your Name]'s Cloud Journey
+<p>
+I start this challenge because I want to keep my Cloud knowledge and skills up-to-date and industry ready 🔧
+</p>
 
-[✍️ Introduce yourself]
+<p>
+At the end of the challenge, I want to:
+- have gained the developer-associate certificate
+- have built another full-stack web application 
+</p>
 
-[✍️ Tell us why you started this challenge]
-
-[✍️ Tell us where you want to be at the end of the challenge]
-
-- [✍️ Link to your Twitter](https://twitter.com/username)
-- [✍️ Link to your LinkedIn](https://www.linkedin.com/in/username)
+- [Linkedin: anran-niu](https://www.linkedin.com/in/anran-niu/)
 
 ## Stepping out the door
 

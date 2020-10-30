@@ -21,7 +21,7 @@ So I created a new Route Table to see what options I have.
 You HAVE to have a rule for your whole VPC CIDR block, and you have three options for targets: local, Instance and Network Interface. For this rule, you cannot specify a subnet as a target.
 
 <p align="center">
-  <img src="RT1.png" width="600">
+  <img src="RT1.png" width="600" alt="">
 </p>
 
 You can still specify a destination more specific than the above rule, and the Route Table will use this more specific rule to decide where to route the traffic. However, you still cannot specify a subnet as the target. You can choose from the options listed in the image, plus Carrier Gateway and Egress Only Internet Gateway.

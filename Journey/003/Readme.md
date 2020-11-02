@@ -20,4 +20,13 @@
     4. forward
     5. redirect
 - SNI (Server Name Indication) is a feature allowing you to expose multiple SSL certs for different hostnames in one ALB.
+- Stickiness:
+    1. ALB 
+    2. enabled at target group level
+    3. has an expiration time
+- Cross-Zone Load Balancing
+    1. CLB: disabled by default, no charge if enable
+    2. ALB: always on, cannot disable, no charge
+    3. NLB: disabled by default, get charged if enable
 
+    

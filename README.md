@@ -22,11 +22,11 @@ At the end of the challenge, I want to:
 
 ## Stepping out the door
 
-- [x] ☁️ 1 > [✍️ My First Day](Journey/001/Readme.md)
-- [x] ☁️ 2 > [✍️ Reaching out to help Cloud classmates](Journey/002/Readme.md)
-- [x] ☁️ 3 > [✍️ NLB&ALB note](Journey/003/Readme.md)
-- [ ] ☁️ 4 > [](Journey/004/Readme.md)
-- [ ] ☁️ 5 > [](Journey/005/Readme.md)
+- [x] ☁️ 1 > [My First Day](Journey/001/Readme.md)
+- [x] ☁️ 2 > [Reaching out to help Cloud classmates](Journey/002/Readme.md)
+- [x] ☁️ 3 > [NLB&ALB note](Journey/003/Readme.md)
+- [x] ☁️ 4 > [ELB](Journey/004/Readme.md)
+- [x] ☁️ 5 > [EBS, EFS, VPC](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [](Journey/006/Readme.md)
 - [ ] ☁️ 7 > [](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [](Journey/008/Readme.md)

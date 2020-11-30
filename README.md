@@ -13,7 +13,7 @@ I start this challenge because I want to keep my Cloud knowledge and skills up-t
 </p>
 
 <p>
-At the end of the challenge, I want to:
+At the end of the challengae, I want to:
 - have gained the developer-associate certificate
 - have built another full-stack web application 
 </p>

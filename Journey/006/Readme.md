@@ -15,4 +15,5 @@
 
 ## RDS Read Replicas
 - read replica can be same AZ, cross AZ, cross region
-- 
+- Can be a Disaster Recovery solution if put in different AZ/region
+- Putting read replica in same AZ helps saving on your data transmission cost.

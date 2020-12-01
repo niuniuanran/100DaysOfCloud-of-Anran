@@ -149,3 +149,6 @@ At the end of the challengae, I want to:
 - [ ] ☁️ 98 > [](Journey/098/Readme.md)
 - [ ] ☁️ 99 > [](Journey/099/Readme.md)
 - [ ] ☁️ 100 > [](Journey/100/Readme.md)
+
+
+[]: Journey/007/Readme.md

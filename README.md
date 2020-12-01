@@ -28,7 +28,7 @@ At the end of the challengae, I want to:
 - [x] ☁️ 4 > [ELB](Journey/004/Readme.md)
 - [x] ☁️ 5 > [EBS, EFS, VPC](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [](Journey/006/Readme.md)
-- [ ] ☁️ 7 > [](Journey/007/Readme.md)
+- [x] ☁️ 7 > [RDS, ElastiCache, 3 Caching models](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [](Journey/009/Readme.md)
 - [ ] ☁️ 10 > [](Journey/010/Readme.md)

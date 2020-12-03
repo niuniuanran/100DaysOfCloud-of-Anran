@@ -31,7 +31,7 @@ At the end of the challengae, I want to:
 - [x] ☁️ 7 > [RDS Security, ElastiCache, 3 Caching models](Journey/007/Readme.md)
 - [x] ☁️ 8 > [Route 53](Journey/008/Readme.md)
 - [x] ☁️ 9 > [S3](Journey/009/Readme.md)
-- [ ] ☁️ 10 > [](Journey/010/Readme.md)
+- [x] ☁️ 10 > [Programmatically access AWS](Journey/010/Readme.md)
 
 ## Walking down the road
 

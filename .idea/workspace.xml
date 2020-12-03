@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5a28bd-ee46-4295-a4c5-3620d06733f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Journey/009/cors-config.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Journey/009/deny-unencrypted.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Journey/009/s3-cors.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Journey/009/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Journey/009/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Journey/010/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Journey/010/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +26,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SearchEverywhereConfiguration">
@@ -56,7 +54,8 @@
       <updated>1606632344851</updated>
       <workItem from="1606632345948" duration="4559000" />
       <workItem from="1606722439369" duration="5803000" />
-      <workItem from="1606898766178" duration="4010000" />
+      <workItem from="1606898766178" duration="4115000" />
+      <workItem from="1606973415596" duration="1857000" />
     </task>
     <servers />
   </component>
@@ -64,14 +63,18 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="221" y="48" key="SettingsEditor" timestamp="1606978708417">
+      <screen x="0" y="23" width="1440" height="772" />
+    </state>
+    <state x="221" y="48" key="SettingsEditor/0.23.1440.772@0.23.1440.772" timestamp="1606978708417" />
     <state width="254" height="200" key="ShowFilterAction_Filter_Popup" timestamp="1606904645166">
       <screen x="0" y="23" width="1440" height="772" />
     </state>
     <state width="254" height="200" key="ShowFilterAction_Filter_Popup/0.23.1440.772@0.23.1440.772" timestamp="1606904645166" />
-    <state x="822" y="238" width="670" height="504" key="search.everywhere.popup" timestamp="1606904645759">
+    <state x="567" y="163" width="670" height="504" key="search.everywhere.popup" timestamp="1606978713048">
       <screen x="0" y="23" width="1440" height="772" />
     </state>
     <state x="1096" y="290" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606729087642" />
-    <state x="822" y="238" width="670" height="504" key="search.everywhere.popup/0.23.1440.772@0.23.1440.772" timestamp="1606904645759" />
+    <state x="567" y="163" width="670" height="504" key="search.everywhere.popup/0.23.1440.772@0.23.1440.772" timestamp="1606978713048" />
   </component>
 </project>

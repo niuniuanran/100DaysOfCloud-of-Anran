@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8b5a28bd-ee46-4295-a4c5-3620d06733f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Journey/011/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Journey/011/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Journey/012/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Journey/012/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
       <workItem from="1606632345948" duration="4559000" />
       <workItem from="1606722439369" duration="5803000" />
       <workItem from="1606898766178" duration="4115000" />
-      <workItem from="1606973415596" duration="6958000" />
+      <workItem from="1606973415596" duration="11126000" />
     </task>
     <servers />
   </component>
@@ -62,6 +63,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1607076067437">
+      <screen x="0" y="23" width="1440" height="772" />
+    </state>
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.772@0.23.1440.772" timestamp="1607076067437" />
     <state x="221" y="48" key="SettingsEditor" timestamp="1606978708417">
       <screen x="0" y="23" width="1440" height="772" />
     </state>
@@ -70,10 +75,10 @@
       <screen x="0" y="23" width="1440" height="772" />
     </state>
     <state width="254" height="200" key="ShowFilterAction_Filter_Popup/0.23.1440.772@0.23.1440.772" timestamp="1606904645166" />
-    <state x="567" y="163" width="670" height="504" key="search.everywhere.popup" timestamp="1606984379823">
+    <state x="567" y="163" width="670" height="504" key="search.everywhere.popup" timestamp="1607067738708">
       <screen x="0" y="23" width="1440" height="772" />
     </state>
     <state x="1096" y="290" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606729087642" />
-    <state x="567" y="163" width="670" height="504" key="search.everywhere.popup/0.23.1440.772@0.23.1440.772" timestamp="1606984379823" />
+    <state x="567" y="163" width="670" height="504" key="search.everywhere.popup/0.23.1440.772@0.23.1440.772" timestamp="1607067738708" />
   </component>
 </project>

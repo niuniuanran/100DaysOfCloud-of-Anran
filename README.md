@@ -35,8 +35,8 @@ At the end of the challengae, I want to:
 
 ## Walking down the road
 
-- [ ] ☁️ 11 > [](Journey/011/Readme.md)
-- [ ] ☁️ 12 > [](Journey/012/Readme.md)
+- [x] ☁️ 11 > [CloudFront](Journey/011/Readme.md)
+- [x] ☁️ 12 > [S3 Security](Journey/012/Readme.md)
 - [ ] ☁️ 13 > [](Journey/013/Readme.md)
 - [ ] ☁️ 14 > [](Journey/014/Readme.md)
 - [ ] ☁️ 15 > [](Journey/015/Readme.md)

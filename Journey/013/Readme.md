@@ -1,52 +1,28 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# AWS SAP example questions note
 
-# New post title here
+## Handling Errors in Amazon API Gateway
 
-## Introduction
+- `429`: Limit Exceeded Exception; Too Many Requests Exception
+- The `502` internal server errors will be returned intermittently by API Gateway if the Lambda function
+  exceeds concurrency limits. 
+  
+<img src="./APIError.png" alt="" width="600px"/>
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+A) solves a 502 error, and B) solves a 429 error.
 
-## Prerequisite
+## Kinesis Data Streams Quotas and Limits
+- A single shard can ingest up to 1 MB of data per second (including partition keys) or 1,000 records per second for writes. 
+- Each shard can support up to five read transactions per second. Each read transaction can provide up to 10,000 records with an upper quota of 10 MB per transaction.
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+<img src="kinesis.png" alt="" width="600px"/>
 
-## Use Case
+- With C, the amount of data would exceed the 1 MBps limit of a single shard.
+- Choose B, D.
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+## SMS
 
-## Cloud Research
+<img src="sms.png" alt="" width="600px"/>
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+- You can use the AWS SMS console to import your server catalog and migrate your on-premises servers to Amazon EC2.
+- AWS SMS automatically replicates live server volumes to AWS and creates an Amazon Machine Image (AMI) as needed.
+  

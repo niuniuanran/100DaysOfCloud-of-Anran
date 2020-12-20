@@ -38,7 +38,7 @@ At the end of the challengae, I want to:
 - [x] ☁️ 11 > [CloudFront](Journey/011/Readme.md)
 - [x] ☁️ 12 > [S3 Security](Journey/012/Readme.md)
 - [x] ☁️ 13 > [AWS SAP example questions note](Journey/013/Readme.md)
-- [ ] ☁️ 14 > [](Journey/014/Readme.md)
+- [x] ☁️ 14 > [Professional Question Prep - Day 1](Journey/014/Readme.md)
 - [ ] ☁️ 15 > [](Journey/015/Readme.md)
 - [ ] ☁️ 16 > [](Journey/016/Readme.md)
 - [ ] ☁️ 17 > [](Journey/017/Readme.md)

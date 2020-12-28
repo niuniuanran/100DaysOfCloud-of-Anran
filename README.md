@@ -38,13 +38,13 @@ At the end of the challengae, I want to:
 - [x] ☁️ 11 > [CloudFront](Journey/011/Readme.md)
 - [x] ☁️ 12 > [S3 Security](Journey/012/Readme.md)
 - [x] ☁️ 13 > [AWS SAP example questions note](Journey/013/Readme.md)
-- [x] ☁️ 14 > [Professional Prep - Day 1](Journey/014/Readme.md)
-- [x] ☁️ 15 > [Professional Prep - Day 2](Journey/015/Readme.md)
-- [x] ☁️ 16 > [Professional Prep - Day 3](Journey/016/Readme.md)
-- [x] ☁️ 17 > [Professional Prep - Day 4](Journey/017/Readme.md)
-- [x] ☁️ 18 > [Professional Prep - Day 5](Journey/018/Readme.md)
-- [x] ☁️ 19 > [Professional Prep - Day 6](Journey/019/Readme.md)
-- [ ] ☁️ 20 > [](Journey/020/Readme.md)
+- [x] ☁️ 14 > [Architect Professional Prep - Day 1](Journey/014/Readme.md)
+- [x] ☁️ 15 > [Architect Professional Prep - Day 2](Journey/015/Readme.md)
+- [x] ☁️ 16 > [Architect Professional Prep - Day 3](Journey/016/Readme.md)
+- [x] ☁️ 17 > [Architect Professional Prep - Day 4](Journey/017/Readme.md)
+- [x] ☁️ 18 > [Architect Professional Prep - Day 5](Journey/018/Readme.md)
+- [x] ☁️ 19 > [Architect Professional Prep - Day 6](Journey/019/Readme.md)
+- [x] ☁️ 20 > [Architect Professional Prep - Day 7](Journey/020/Readme.md)
 
 ## Crossing the bridge
 

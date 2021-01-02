@@ -67,4 +67,3 @@ You can program your devices to act locally on the data they generate, execute p
 - If Requester Pays is enabled, then the request must include the request-payer parameter.
 - If you're using a Referer header to restrict access from CloudFront to your S3 origin, then review the custom header.
 
-

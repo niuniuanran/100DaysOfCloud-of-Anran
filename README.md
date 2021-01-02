@@ -48,10 +48,10 @@ At the end of the challengae, I want to:
 
 ## Crossing the bridge
 
-- [ ] ☁️ 21 > [](Journey/021/Readme.md)
-- [ ] ☁️ 22 > [](Journey/022/Readme.md)
-- [ ] ☁️ 23 > [](Journey/023/Readme.md)
-- [ ] ☁️ 24 > [](Journey/024/Readme.md)
+- [x] ☁️ 21 > [Architect Professional Prep - Day 8](Journey/021/Readme.md)
+- [x] ☁️ 22 > [Architect Professional Prep - Day 9](Journey/022/Readme.md)
+- [x] ☁️ 23 > [Architect Professional Prep - Day 10](Journey/023/Readme.md)
+- [x] ☁️ 24 > [Architect Professional Prep - Day 11](Journey/024/Readme.md)
 - [ ] ☁️ 25 > [](Journey/025/Readme.md)
 - [ ] ☁️ 26 > [](Journey/026/Readme.md)
 - [ ] ☁️ 27 > [](Journey/027/Readme.md)

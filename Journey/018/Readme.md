@@ -25,7 +25,7 @@
 
 ## Central logging
 - Create Amazon Kinesis Data Strems in the logging account
-- Subscribe the stream to CloudWatch Logs stream in each application AWS account.
+- Subscribe the stream to **CloudWatch Logs stream** in each application AWS account.
 - Configure an Amazon Kinesis Data Firehose delivery stream with the Data Stream as its source, and persist the log data in a S3 bucket inside the logging AWS account.
 
 ### Kibana

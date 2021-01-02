@@ -1,52 +1,28 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Architect Professional Prep - Day 9
 
-# New post title here
+## Amazon Mechanical Turk
+- Amazon Mechanical Turk (MTurk) is a **crowdsourcing marketplace** that makes it easier for individuals and businesses to outsource their processes and jobs to a distributed workforce who can perform these tasks virtually. 
+- MTurk enables companies to harness the collective intelligence, skills, and insights from a global workforce to streamline business processes, augment data collection and analysis, and accelerate machine learning development.
 
-## Introduction
+## Amazon Transcribe
+Automatically convert speech to text.
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+## Service Control Policies (SCPs)
+- Service control policies (SCPs) are a type of organization policy that you can use to manage permissions in your organization. 
+- SCPs offer central control over the maximum available permissions for all accounts in your organization. 
+- SCPs help you to ensure your accounts stay within your organization’s access control guidelines. 
+- SCPs are available only in an organization that has all features enabled.
+- SCPs don't affect users or roles in the management account. 
+- They affect only the member accounts in your organization.
+- No permissions are granted by an SCP. 
+- An SCP defines a guardrail, or sets limits, on the actions that the account's administrator can delegate to the IAM users and roles in the affected accounts. 
+- The effective permissions are the **logical intersection** between what is allowed by the SCP and what is allowed by the IAM and resource-based policies.
 
-## Prerequisite
+### SCP Inheritance
+- To allow an AWS service API at the member account level, you must allow that API at **every level** between the member account and the root of your organization. 
+    - A `deny list strategy` makes use of the `AWSFullAccess` SCP that is attached by default to every OU and account. This SCP overrides the default implicit deny, and explicitly allows all permissions to flow down from the root to every account, unless you explicitly deny a permission with an additional SCP that you create and attach to the appropriate OU or account.
+    - An `allow list strategy` has you remove the `AWSFullAccess` SCP that is attached by default to every OU and account. This means that no APIs are permitted anywhere unless you explicitly allow them. 
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
 
-## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
-## Cloud Research
-
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)

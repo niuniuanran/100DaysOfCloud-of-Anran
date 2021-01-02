@@ -52,9 +52,9 @@ Kinesis Agent is a stand-alone Java software application that offers an easy way
 #### Migrating to ES
 - AWS DMS can do a one-time data migration, or it can do a continuous replication of the data from any of our supported sources to an Amazon ES target. 
 - These sources include:
-    1. relational databases (such as Oracle and Amazon Aurora), 
-    2. a NoSQL database (MongoDB), or 
-    3. an Amazon S3 bucket.
+    1. Relational databases (such as Oracle and Amazon Aurora), 
+    2. NoSQL database (MongoDB/Cassandra), or 
+    3. Amazon S3 bucket.
 
 ### Server Migration Service
 - Currently, you can migrate virtual machines from VMware vSphere, Windows Hyper-V, or Microsoft Azure to AWS using AWS Server Migration Service.

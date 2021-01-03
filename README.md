@@ -54,7 +54,7 @@ At the end of the challengae, I want to:
 - [x] ☁️ 24 > [Architect Professional Prep - Day 11](Journey/024/Readme.md)
 - [x] ☁️ 25 > [Architect Professional Prep - Day 12](Journey/025/Readme.md)
 - [x] ☁️ 26 > [Architect Professional Prep - Day 13](Journey/026/Readme.md)
-- [ ] ☁️ 27 > [](Journey/027/Readme.md)
+- [x] ☁️ 27 > [Architect Professional Prep - Day 14](Journey/027/Readme.md)
 - [ ] ☁️ 28 > [](Journey/028/Readme.md)
 - [ ] ☁️ 29 > [](Journey/029/Readme.md)
 - [ ] ☁️ 30 > [](Journey/030/Readme.md)

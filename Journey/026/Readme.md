@@ -100,7 +100,6 @@ aws s3 cp example.jpg s3://awsexamplebucket --acl bucket-owner-full-control
 ```
 
 ## RDS I/O baseline and credit 
-
 ### Baseline
 - Baseline I/O performance for General Purpose SSD storage is 3 IOPS for each GiB, with a minimum of 100 IOPS. 
 - Provisioned IOPS storage is designed to meet the needs of I/O-intensive workloads, particularly database workloads, that require low I/O latency and consistent I/O throughput.
@@ -137,8 +136,4 @@ Process:
     2. the ARN of the role to assume that you created in Step 4, 
     3. the SAML assertion about the current user that you get from your IdP.  
 7. If the request is successful, the API returns a set of **temporary security credentials**, which your application can use to make signed requests to AWS. 
-
-
-
-
 

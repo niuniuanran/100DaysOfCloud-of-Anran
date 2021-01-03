@@ -99,6 +99,44 @@ After you add this bucket policy, users must set the object's ACL to bucket-owne
 aws s3 cp example.jpg s3://awsexamplebucket --acl bucket-owner-full-control
 ```
 
+## RDS I/O baseline and credit 
+
+### Baseline
+- Baseline I/O performance for General Purpose SSD storage is 3 IOPS for each GiB, with a minimum of 100 IOPS. 
+- Provisioned IOPS storage is designed to meet the needs of I/O-intensive workloads, particularly database workloads, that require low I/O latency and consistent I/O throughput.
+
+### I/O credits and burst performance
+- Volumes below 1 TiB in size also have ability to burst to 3,000 IOPS for extended periods of time. 
+- Burst is not relevant for volumes above 1 TiB. Instance I/O credit balance determines burst performance.
+- When using General Purpose SSD storage, your DB instance receives an initial I/O credit balance of 5.4 million I/O credits. This initial credit balance is enough to sustain a burst performance of 3,000 IOPS for 30 minutes. 
+- This balance is designed to provide a fast initial boot cycle for boot volumes and to provide a good bootstrapping experience for other applications. 
+- Volumes earn I/O credits at the baseline performance rate of 3 IOPS for each GiB of volume size.
+
+## SAML 2.0-based federation
+
+### Using SAML-based federation for API access to AWS
+<img src="https://docs.aws.amazon.com/IAM/latest/UserGuide/images/saml-based-federation.diagram.png" width="600px" alt=""/>
+
+Process:
+1. Client app requests authentication from organization's IdP.
+2. The IdP authenticates user against the organization's identity store.
+3. IdP constructs a **SAML assertion** with information about the user, and sends the assertion to the client app.
+4. The client app calls the **AWS STS `AssumeRoleWithSAML` API**, passing the ARN of the SAML provider, the ARN of the role to assume, and the SAML assertion from IdP.
+5. The `AssumeRoleWithSAML` API response to the client app includes **temporary security credentials**.
+6. The client app uses the temporary security credentials to call Amazon API.
+
+### Key steps in configuring SAML 2.0-based federation
+
+1. Register AWS with your IdP as a service provider (SP).
+2. Using your organization's IdP, you generate an equivalent metadata XML file that can describe your IdP as an IAM identity provider in AWS. 
+3. In the IAM console, you create a **SAML identity provider** entity. Upload the SAML metadata document that was produced by the IdP in your organization in Step 2.
+4. In IAM, you create one or more IAM roles. In the role's **trust policy**, you set the **SAML identity provider** as the principal, which establishes a trust relationship between your organization and AWS. The role's permission policy establishes what users from your organization are allowed to do in AWS.
+5. In your organization's IdP, you define **assertions** that **map users or groups in your organization to the IAM roles**.
+6. In the application that you're creating, you call the **AWS Security Token Service** `AssumeRoleWithSAML` API, passing it:
+    1. the ARN of the SAML provider you created in Step 3, 
+    2. the ARN of the role to assume that you created in Step 4, 
+    3. the SAML assertion about the current user that you get from your IdP.  
+7. If the request is successful, the API returns a set of **temporary security credentials**, which your application can use to make signed requests to AWS. 
 
 
 

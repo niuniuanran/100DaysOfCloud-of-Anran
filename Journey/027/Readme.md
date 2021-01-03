@@ -126,6 +126,47 @@ AWS Migration Hub helps plan your migrations by allowing you to group related se
 ### Amazon ECR
 Amazon Elastic Container Registry (ECR) is a fully managed container registry that makes it easy to store, manage, share, and deploy your **container images and artifacts** anywhere. 
 
+## AWS CDK
+The AWS CDK lets you easily define applications in the AWS Cloud using your programming language of choice.
+
+> Define the AWS resources using TypeScript or Python. Use the AWS Cloud Development Kit (AWS CDK) to create CloudFormation templates from the developers' code, and use the AWS CDK to create CloudFormation stacks. Incorporate the AWS CDK as a CodeBuild job in CodePipeline.
+
+## Snowball transfer speed
+- The data transfer rate using the file interface is typically between 25 MB/s and 40 MB/s. If you need to transfer data faster than this, use the **Amazon S3 Adapter for Snowball**, which has a data transfer rate typically between 250 MB/s and 400 MB/s. 
+- Transfer smaller files in batches, set `snowball-auto-extract=true`
+- Reduce local network use – Your AWS Snowball Edge device communicates across your local network. 
+
+## Organisation APIs
+### MoveAccount
+- Moves an account from its current source parent root or organizational unit (OU) to the specified destination parent root or OU.
+- This operation can be called only from the organization's management account.
+
+### RemoveAccountFromOrganization
+- Removes the specified account from the organization.
+- This operation can be called only from the organization's management account. Member accounts can remove themselves with LeaveOrganization instead.
+
+### InviteAccountToOrganization
+Sends an invitation to another account to join your organization as a member account. AWS Organizations sends email on your behalf to the email address that is associated with the other account's owner. The invitation is implemented as a Handshake whose details are in the response.
+
+## Organization Tag Policy
+Tag policies are a type of policy that can help you standardize tags across resources in your organization's accounts. In a tag policy, you specify tagging rules applicable to resources when they are tagged.
+
+## CloudEndure Migration
+- Has an agent
+- You can use CloudEndure Migration to quickly lift-and-shift physical, virtual, or cloud servers without compatibility issues, performance impact, or long cutover windows. 
+- CloudEndure Migration continuously replicates your source servers to your AWS account. 
+- Then, when you’re ready to migrate, it automatically converts and launches your servers on AWS so you can quickly benefit from the cost savings, productivity, resilience, and agility of the AWS Cloud.
+
+## AWS Server Migration Service
+AWS Server Migration Service (SMS) is an **agentless** service.
+
+## Aurora Serverless - Aurora Data API
+- By using the Data API for Aurora Serverless, you can work with a web-services interface to your Aurora Serverless DB cluster. 
+- Users can invoke Data API operations only if they are authorized to do so. You can give a user permission to use the Data API by attaching an AWS Identity and Access Management (IAM) policy that defines their privileges. You can also attach the policy to a role if you're using IAM roles. An AWS managed policy, AmazonRDSDataFullAccess, includes permissions for the RDS Data API.
+
+
+
+
 
 
 

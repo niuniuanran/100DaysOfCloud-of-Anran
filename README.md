@@ -55,9 +55,9 @@ At the end of the challengae, I want to:
 - [x] ☁️ 25 > [Architect Professional Prep - Day 12](Journey/025/Readme.md)
 - [x] ☁️ 26 > [Architect Professional Prep - Day 13](Journey/026/Readme.md)
 - [x] ☁️ 27 > [Architect Professional Prep - Day 14](Journey/027/Readme.md)
-- [ ] ☁️ 28 > [](Journey/028/Readme.md)
-- [ ] ☁️ 29 > [](Journey/029/Readme.md)
-- [ ] ☁️ 30 > [](Journey/030/Readme.md)
+- [x] ☁️ 28 > [Service Limitations I did not know before](Journey/028/Readme.md)
+- [x] ☁️ 29 > [Architect Professional Prep - Day 15](Journey/029/Readme.md)
+- [x] ☁️ 30 > [Services I did not know before](Journey/030/Readme.md)
 
 ## Into the bushy, thorny forest
 

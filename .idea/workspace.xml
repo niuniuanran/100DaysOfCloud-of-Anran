@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/Journey/028/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Journey/028/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Journey/029/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Journey/029/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Journey/030/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Journey/030/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
       <workItem from="1606973415596" duration="11975000" />
       <workItem from="1607682266112" duration="3071000" />
       <workItem from="1608713145809" duration="16640000" />
-      <workItem from="1609237400229" duration="24100000" />
+      <workItem from="1609237400229" duration="33110000" />
     </task>
     <servers />
   </component>
@@ -84,10 +83,10 @@
       <screen x="0" y="23" width="1440" height="769" />
     </state>
     <state x="265" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.769@0.23.1440.769" timestamp="1609625027711" />
-    <state x="424" y="164" width="598" height="490" key="find.popup" timestamp="1609711941225">
+    <state x="424" y="164" width="598" height="490" key="find.popup" timestamp="1609797438661">
       <screen x="0" y="23" width="1440" height="769" />
     </state>
-    <state x="424" y="164" width="598" height="490" key="find.popup/0.23.1440.769@0.23.1440.769" timestamp="1609711941225" />
+    <state x="424" y="164" width="598" height="490" key="find.popup/0.23.1440.769@0.23.1440.769" timestamp="1609797438661" />
     <state x="424" y="164" width="598" height="490" key="find.popup/0.23.1440.771@0.23.1440.771" timestamp="1609675562320" />
     <state x="424" y="164" width="598" height="490" key="find.popup/0.23.1440.772@0.23.1440.772" timestamp="1609190203786" />
     <state x="567" y="162" width="670" height="503" key="search.everywhere.popup" timestamp="1609712871660">

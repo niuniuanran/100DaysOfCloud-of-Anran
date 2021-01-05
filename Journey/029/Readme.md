@@ -22,7 +22,6 @@ In both cases, **you CANNOT edit the roles**.
 - You can specify either role when you edit your **AWS Key Management Service key policies** to allow instances that are launched by Amazon EC2 Auto Scaling to be encrypted with your customer managed CMK. 
 - However, if you plan to give granular access to a specific customer managed CMK, you should use a custom suffix service-linked role. 
 
-
 ## What type of Virtual Interface should I choose for DX
 ### Public virtual gateway
 To connect to AWS resources that are reachable by a public IP address (such as an S3 bucket) or AWS public endpoints, use a public virtual interface. 
@@ -32,6 +31,5 @@ To connect to your resources hosted in an Amazon Virtual Private Cloud (Amazon V
 
 ### Transit virtual interface
 To connect to your resources hosted in an Amazon VPC (using their private IP addresses) through a transit gateway, use a transit virtual interface.
-
 
 

@@ -29,6 +29,9 @@
 28. AWS SMS supports migrations of virtual machines from VMware, Hyper-V or Microsoft Azure. To lift-and-shift physical servers, use **CloudEndure**.
 29. You still need to install the Discovery Connector as a VM in your VMware vCenter Server environment using an Open Virtualization Archive (OVA) file. 
 30. AWS WAF helps only works with HTTP or HTTPS. AWS Shield works with TCP and UDP.
+31. You can define a time-based schedule for your crawlers and jobs in AWS Glue. Minimum is 5 minutes.
+32. Cognito User Pool is just a user directory. You need Identity Pool for authorization.
+
 
     
 

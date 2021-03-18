@@ -59,9 +59,9 @@ At the end of the challengae, I want to:
 - [x] ☁️ 29 > [Architect Professional Prep - Day 15](Journey/029/Readme.md)
 - [x] ☁️ 30 > [Services I did not know before](Journey/030/Readme.md)
 
-## Into the bushy, thorny forest
+## Starting Azure Journey
 
-- [ ] ☁️ 31 > [](Journey/031/Readme.md)
+- [x] ☁️ 31 > [Intro to Azure](Journey/031/Readme.md)
 - [ ] ☁️ 32 > [](Journey/032/Readme.md)
 - [ ] ☁️ 33 > [](Journey/033/Readme.md)
 - [ ] ☁️ 34 > [](Journey/034/Readme.md)
@@ -149,6 +149,5 @@ At the end of the challengae, I want to:
 - [ ] ☁️ 98 > [](Journey/098/Readme.md)
 - [ ] ☁️ 99 > [](Journey/099/Readme.md)
 - [ ] ☁️ 100 > [](Journey/100/Readme.md)
-
 
 []: Journey/007/Readme.md

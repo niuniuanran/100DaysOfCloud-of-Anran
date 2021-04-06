@@ -1,52 +1,18 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
-
-## Cloud Research
-
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+# Azure resource group
+- Same lifecycle
+- Each resource can exist in only one resource group.
+- You can move a resource from one resource group to another group.
+- The resources in a resource group can be located in different regions than the resource group.
+- When creating a resource group, you need to provide a location for that resource group. 
+  - The resource group stores metadata about the resources. 
+  - When you specify a location for the resource group, you're specifying where that metadata is stored. 
+  - For compliance reasons, you may need to ensure that your data is stored in a particular region.
+  - If the resource group's region is temporarily unavailable, you can't **update resources in the resource group** because the metadata is unavailable.
+  - The resources in other regions will **still function** as expected, but you can't update them. 
+- can be used to scope access control for administrative actions. To manage a resource group, you can assign Azure Policies, Azure roles, or resource locks.
+- You can apply tags to a resource group. The resources in the resource group **don't inherit** those tags.
+- A resource can connect to resources in other resource groups. This scenario is common when the two resources are related but don't share the same lifecycle. 
+- When you delete a resource group, all resources in the resource group are also deleted.
+- You can deploy up to 800 instances of a resource type in each resource group. 
+- Some resources can exist outside of a resource group. These resources are deployed to the subscription, management group, or tenant. Only specific resource types are supported at these scopes.
+- To create a resource group, you can use the portal, PowerShell, Azure CLI, or an ARM template.

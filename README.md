@@ -62,7 +62,7 @@ At the end of the challengae, I want to:
 ## Starting Azure Journey
 
 - [x] ☁️ 31 > [Intro to Azure](Journey/031/Readme.md)
-- [ ] ☁️ 32 > [](Journey/032/Readme.md)
+- [x] ☁️ 32 > [Azure resource group](Journey/032/Readme.md)
 - [ ] ☁️ 33 > [](Journey/033/Readme.md)
 - [ ] ☁️ 34 > [](Journey/034/Readme.md)
 - [ ] ☁️ 35 > [](Journey/035/Readme.md)

@@ -64,7 +64,7 @@ At the end of the challengae, I want to:
 - [x] ☁️ 31 > [Intro to Azure](Journey/031/Readme.md)
 - [x] ☁️ 32 > [Azure resource group](Journey/032/Readme.md)
 - [x] ☁️ 33 > [Services for developers](Journey/033/Readme.md)
-- [ ] ☁️ 34 > [](Journey/034/Readme.md)
+- [x] ☁️ 34 > [Azure subscription & AD directory/tenant](Journey/034/Readme.md)
 - [ ] ☁️ 35 > [](Journey/035/Readme.md)
 - [ ] ☁️ 36 > [](Journey/036/Readme.md)
 - [ ] ☁️ 37 > [](Journey/037/Readme.md)
